@@ -4,7 +4,8 @@
 *.egg-info/
 .ipynb_checkpoints/
 data/
-*.gz
 logs/
+*.gz
 runs/
+!03_bert/logs/
 .cache/
