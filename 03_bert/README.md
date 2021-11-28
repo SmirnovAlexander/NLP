@@ -16,5 +16,5 @@
     - потому что во вкладке hparams иначе перемешиваются модели
 - когда находитесь на вкладке scalars введите фильтр `^((?!hyperparams).)*$`, чтобы убрать гиперпараметры
 - гиперпараметры смотреть отдельно во вкладке hparams, включите параметры:
-    - pretraining: `hidden_size`, `num_hidden_layers`, `batch_size`, `{init, peak, final}_lr`, `last_epoch`
-    - finetuning: `hidden_size`, `num_hidden_layers`, `{init, peak, final}_lr`
+    - pretraining: `hidden_size`, `num_hidden_layers`, `batch_size`, `{init, peak, final}_lr`, `last_epoch`, все метрики
+    - finetuning: `hidden_size`, `num_hidden_layers`, `{init, peak, final}_lr`, все метрики
