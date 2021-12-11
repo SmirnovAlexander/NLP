@@ -9,3 +9,5 @@ logs/
 runs/
 !03_bert/logs/
 .cache/
+checkpoints/
+*.zip
